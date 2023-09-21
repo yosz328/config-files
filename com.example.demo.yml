@@ -1,0 +1,28 @@
+---
+spring:
+  application:
+    name: com.example.demo
+  profiles:
+    active: default
+var1: hola desde default
+---
+spring:
+  application:
+    name: com.example.demo
+  profiles:
+    active: dev
+var1: hola desde dev
+---
+spring:
+  application:
+    name: com.example.demo
+  profiles:
+    active: qa
+var1: hola desde qa
+---
+spring:
+  application:
+    name: com.example.demo
+  profiles:
+    active: prod
+var1: hola desde prod
